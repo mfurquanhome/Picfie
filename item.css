@@ -1,0 +1,295 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.wp{
+    width:1170px;
+    margin:auto;
+}
+
+header{
+    background: url("http://wallpapers.net/web/wallpapers/canon-dslr-hd-wallpaper/3840x2160.jpg");
+    height:100vh;
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-position:center center;
+    position: relative;
+}
+
+.nav-area{
+    float:right;
+    list-style: none;
+    margin-top: 30px;
+
+}
+.nav-area li{
+    display:inline-block;
+}
+
+.nav-area li a{
+    color:slategrey;
+    text-decoration:none;
+    padding : 5px 20px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 16px;
+ text-shadow: seashell;
+}
+
+.nav-area li a:hover{
+    background: whitesmoke;
+    color:rgb(124, 3, 3);
+    box-sizing: border-box;
+    border-radius: 15%;
+}
+
+.nav-area li a:active{
+    color:sandybrown;
+    background: teal;
+    
+    
+}
+
+.logo img{
+    width: 150px;
+    float: left;
+    height:auto;
+}
+
+.contact img{
+  width: 30px;
+  float: center;
+   height:auto;
+   padding : 5px 10px;
+}
+
+.welcome-text{
+    position: absolute;
+    width:600px;
+    height:300px;
+    margin: 20% 30%;
+    text-align: center;
+    
+}
+
+.welcome-text h1{
+    text-align:center;
+    color :white;
+    text-transform: uppercase;
+    font-size: 60px;
+    
+}
+
+.welcome-text h2{
+    text-align:center;
+    color :white;
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: lighter;
+    
+}
+
+.welcome-text h3{
+      text-align:center;
+    color :rgb(124, 3, 3);
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: monospace;
+    line-height: 2.5em;
+    letter-spacing: 10px;
+}
+
+.about{
+    background: url("https://image.freepik.com/free-photo/old-rusty-wall-with-yellow-tones_23-2148742544.jpg");
+    height:100vh;
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-position:center center;
+    position: relative;
+}
+
+.about h1{
+      text-align: center;
+    color :rgb(71, 3, 3);
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 5;
+  
+}
+
+.about p{
+    width:800px;
+    margin:10px auto;
+   
+    text-align: center;
+  color :rgb(0, 46, 88);
+  font-weight: bold;
+ 
+  font-size: 20px;
+  font-family: monospace;
+  line-height: 1.5;
+}
+.photos {
+  background: url("https://wallpapercave.com/wp/wp6282029.jpg");
+  height:100vh;
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position:center center;
+  position: relative;
+  }
+
+  .photos h1{
+    text-align: center;
+    color :rgb(255, 255, 251);
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 2;
+  }
+
+  .slidershow{
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    top: 15%;
+  left: 20%;
+    overflow: hidden;
+  }
+  
+  .navigation{
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  .bar{
+    width: 50px;
+    height: 10px;
+    border: 2px solid rgb(3, 196, 154);
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  .bar:hover{
+    background: rgb(171, 250, 224);
+  }
+  
+  input[name="r"]{
+      position: absolute;
+      visibility: hidden;
+  }
+  
+  .slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+  }
+  
+  .slide{
+    width: 20%;
+    transition: 0.6s;
+  }
+  .slide img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  #r1:checked ~ .s1{
+    margin-left: 0;
+  }
+  #r2:checked ~ .s1{
+    margin-left: -20%;
+  }
+  #r3:checked ~ .s1{
+    margin-left: -40%;
+  }
+  #r4:checked ~ .s1{
+    margin-left: -60%;
+  }
+  #r5:checked ~ .s1{
+    margin-left: -80%;
+  }
+  
+  #r6:checked ~ .s1{
+    margin-left: -100%;
+  }
+
+  .video{
+    background: url("https://cdn.statically.io/img/wallpaperaccess.com/full/623267.jpg");
+    height:100vh;
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-position:center center;
+    position: relative;
+    }
+  
+    .video h1{
+      text-align: center;
+      color :rgb(192, 22, 79);
+      text-transform: uppercase;
+      font-size: 40px;
+      line-height: 2;
+    }
+  
+    .vid{
+      position: absolute;
+      width: 700px;
+      height: 400px;
+      top: 25%;
+    left: 30%;
+      overflow: hidden;
+    }
+    
+    .niv{
+      position: absolute;
+      bottom: 60px;
+      left: 35%;
+      transform: translateX(-50%);
+      display: flex;
+    }
+    .b{
+      width: 50px;
+      height: 10px;
+      border: 2px solid rgb(196, 3, 93);
+      margin: 6px;
+      cursor: pointer;
+      transition: 0.4s;
+    }
+    .b:hover{
+      background:rgb(240, 158, 196);
+    }
+    
+    input[name="v"]{
+        position: absolute;
+        visibility: hidden;
+    }
+    
+    .slids{
+      width: 500%;
+      height: 100%;
+      display: flex;
+    }
+    
+    .slid{
+      width: 40%;
+      transition: 0.6s;
+    }
+    .slid img{
+      width: 100%;
+      height: 100%;
+    }
+    
+    #v1:checked ~ .s1{
+      margin-left: 0;
+    }
+    #v2:checked ~ .s1{
+      margin-left: -40%;
+    }
+    #v3:checked ~ .s1{
+      margin-left: -80%;
+    }
+ 
+html{
+    scroll-behavior: smooth;
+}
